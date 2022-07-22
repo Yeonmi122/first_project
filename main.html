@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 initial-scale=1 maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" >
+  <meta content="yes" name="apple-mobile-web-app-capable" />  
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kiwi+Maru:wght@300&family=Kosugi+Maru&display=swap" rel="stylesheet">  
+  <title>main</title>
+
+</head>
+<!--https://shopping.yahoo.co.jp/search?rkf=2&stp=1&p=%E7%8A%AC%E3%81%AE%E8%A8%93%E7%B7%B4%E6%96%B9%E6%B3%95&cid=10002&uIv=on&sc_i=shp_pc_search_nrwcgt&b=1-->
+<body>
+  <header class="menu_wrap">
+    <div class="container">
+        <div class="menu_header" id = "1" onclick=move_menu(5)>
+            <div id ="logo">
+                <a href="#"><img src = "./img1/dog_logo.png" width="40em"></a>
+            </div>
+
+            <div class="title">
+                <h3 id="tagline">ペットのための知識情報</h3>
+                <h1 id="brand">Dog Life</h1>
+            </div>
+          </div>
+
+          <div class="menu_1">
+            <ul class="menu">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">FAQs</a></li>
+              <li><a href="#" class="nav-link">About</a></li>
+            </ul>
+          </div>
+    </header>
+    <main>
+        <div class="search-section">
+
+            <div class="search-form-section">              
+                <form role="search" method="get" id="searchform" class="search-form" 
+                action="https://mypetlife.co.kr/">
+                    <input type="text" class="search-field" value="" name="s" id="s" placeholder="気になる事を検索してください。">
+                    <button type="submit" class="search-submit">
+                        <i class="fa fa-search">
+                            <svg xmlns="search_icon" width="20" height="20" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                                <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                                <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"/>
+                              </svg>
+                        </i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="name_category" >
+            <h1>カテゴリ</h1>
+        </div>
+    
+        <div class="category_list">
+            <a href="#" class="nav_row">
+                <div class="row" id = "1" onclick="move_menu(1)">
+                    <img src = "./img1/breed.png" width="200em">  
+                    <h2 class="fw-normal">犬種</h2>
+                </div>
+            </a>        
+            <a href="#" class="nav_row">
+                <div class="row" id = "1" onclick="move_menu(2)">
+                    <img src = "./img1/behavior.png" width="200em">  
+                    <h2 class="fw-normal">行動矯正</h2>
+                </div>
+            </a> 
+            <a href="#" class="nav_row">
+                <div class="row" id = "1" onclick="move_menu(3)">
+                    <img src = "./img1/shelter.png" width="200em">  
+                    <h2 class="fw-normal">愛護センター</h2>
+                </div>
+            </a> 
+            <a href="#" class="nav_row">
+                <div class="row" id = "1" onclick="move_menu(4)">
+                    <img src = "./img1/book.png" width="200em">  
+                    <h2 class="fw-normal">図書</h2>
+                </div>
+            </a> 
+        </div>
+        <div class = "dogs">
+            <img src = "./img1/dogs3.jpg" width="200%">
+        </div>
+    </main>
+
+
+    <footer>                
+        <div class ="foot_box">
+            <div class ="info">
+                <div>
+                    <h2>Dog Life</h2>
+                    <p>住所: 70, Sunmoon-ro 221beon-gil, Tangjeong-myeon, Asan-si, Chungcheongnam-do, Republic of Korea</p>
+                    <p>メール: yooyeonmi122@gmail.com</p>
+                    <p>お電話でお問い合わせ(通話無料) 1670-1022 (平日: 10:00~17:00 | お昼 12:00~13:00 週末、祝日休み)</p>
+                    <br>
+                    <br>       
+                    <p>©doglife CO</p>
+                </div>
+            </div>
+        </div>
+
+        <div data-ch-testid="launcher" class="Launcherstyled__Wrapper-ch-front__sc-oef45p-0 dGXKoX">
+            <div id="ch-plugin-launcher" class="Launcherstyled__ImageWrapper-ch-front__sc-oef45p-3 keQiqC">
+                <img alt="Dog Life 상담 버튼" src="./img1/kakao.png" width="70" height="70" 
+                class="Launcherstyled__Image-ch-front__sc-oef45p-4 dmedoI">
+                <div data-ch-testid="badge" hidden="" class="Badgestyled__Badge-ch-front__sc-1ztqq4-0 jsbuFg Launcherstyled__Badge-ch-front__sc-oef45p-5 leNgMu">0</div>
+            </div>
+        </div>
+            
+    </footer>
+
+    <script src="./move.js">
+    </script>
+</body>
+</html>

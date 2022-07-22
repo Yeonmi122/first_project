@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x:hidden;
+    }
+.menu_wrap{
+    background-color: rgb(248, 245, 203);
+}
+.title{
+    margin: 20px 0 0 -0.5%; 
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    height: auto;
+}
+.menu_header{
+    display: inline-flex;
+    width: 100%;
+    height: 7em;
+    margin-top: 0;
+}
+#logo{
+    margin: 20px 1.5% 0% 1%;
+}
+#tagline{
+    font-size: 150%;
+}
+title h1{ 
+    margin: 15px 5% 5% 5%;
+    font-weight: 10%;
+    line-height: 1;
+
+}
+.menu_1{
+    margin: -60px -20% 10% 9%;
+    justify-content: space-around;
+    font-size: 120%;
+    position: absolute;
+    right: 10%;
+    width: 30%;
+    height: auto;
+}
+.menu_1 a{
+    color: black;
+}
+.menu_1{
+    padding-left: 2%;
+}
+.menu a{
+    text-decoration: none;
+    font-family: 'Jua', sans-serif;
+    font-size: 25px;
+    margin: 0px 20px 0 0;
+}
+.menu a:hover{
+    color: orange;
+}
+
+ul li{
+    display: inline-block;
+    justify-content: center;
+}
+.name_category  {
+    font-size: 2rem;
+    color: #ffa500;
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Kosugi Maru', sans-serif;
+
+}
+.category_list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.category_list a{
+    text-decoration: none;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.category_list :hover{
+    color:#ffa500;
+}
+.category_list .nav_row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 13%;
+    margin-top: 5%;
+}
+.dogs{
+    height: 5%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 22%;
+}
+.search_menu{
+    position: absolute;
+    left: 1000px;
+}
+.search-form-section {
+    align-self: center;
+    margin-top: 5%;
+}
+.search-form-section {
+    display: flex;
+    flex: 75%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+form#searchform {
+    align-self: flex-end;
+}
+
+form#searchform {
+    height: 100%;
+    max-height: 100%;
+}
+.search-section form.search-form {
+    margin: 0!important;
+}
+form.search-form {
+    display: inline-block;
+    width: 100%;
+}
+form.search-form {
+    border: solid #FFCD00 2px;
+    border-radius: 6px;
+}
+form.search-form {
+    overflow: auto;
+    position: relative;
+    width: 60%;
+    margin-top: 10px;
+    left: 20%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input#s {
+    border: none;
+}
+input#s {
+    padding-left: 20px;
+    height: 61px;
+    font-size: 18px;
+}
+.search-section input.search-field {
+    border: none;
+}
+textarea, input:not([type="checkbox"]):not([type="radio"]) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.search-field {
+    float: left!important;
+    width: 93%!important;
+}
+.search-field {
+    float: left;
+    width: 73%;
+    padding: 8px 15px;
+}
+textarea, input, select {
+    border: 1px solid rgba(0,0,0,.1);
+    color: #2c2f34;
+    font-size: 13px;
+    outline: none;
+    padding: 5px;
+    line-height: 23px;
+    border-radius: 2px;
+    transition: background 0.3s,border 0.3s;
+    max-width: 100%;
+    background-color: transparent;
+}
+button, input, select, textarea {
+    margin: 0;
+    font: inherit;
+}
+button, input, select {
+    overflow: visible;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.search-submit[type="submit"] {
+    width: 7%!important;
+    margin-left: 0!important;
+}
+button.search-submit {
+    background-color: #FFCD00;
+    border-radius: unset;
+    height: 61px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    background-color: #2c2f34;
+    bottom: 0;
+    align-items: center;
+    margin-top: 5%;
+}
+.info{
+    color: white;
+    position: relative;
+    display: flex;
+    float: right;
+    text-align: center;
+    margin: 0 30% 0 10%;
+}
+#ch-plugin * {
+    font-family: inherit;
+}
+.dGXKoX {
+    position: fixed !important;
+    z-index: 1000 !important;
+    display: block !important;
+    flex-wrap: nowrap !important;
+    width: auto !important;
+    overflow: visible !important;
+    background: transparent !important;
+    bottom: calc(24px + env(safe-area-inset-bottom)) !important;
+    right: 25px !important;
+}
+*{
+    box-sizing: border-box
+}
+body.doz_sys {
+    -webkit-tap-highlight-color: rgba(201, 224, 253, 0.3);
+}
+.doz_sys {
+    color: #000;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+@media all and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    #tagline{
+        font-size: 50%;
+    }
+    title h1{ 
+        margin: 15px 5% 5% 5%;
+        font-weight: 3%;
+        line-height: 1;
+    }
+    .menu{
+        margin: -40px 0 0 0;
+    }
+    .menu a{
+        text-decoration: none;
+        font-family: 'Jua', sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    input#s {
+        padding-left: 15px;
+        height: 61px;
+        font-size: 15px;
+    }
+    .category_list{
+        display: inline-block;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name_category{
+        font-size: large;
+    }
+    .category_list .nav_row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 6%;
+        margin-top: 5%;
+    }
+    .dogs{
+        height: 5%;
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 22%;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        margin: 0 auto;
+        background-color: #2c2f34;
+        bottom: 0;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .info{
+        margin-top: 3%;
+        margin-left: 25%;
+        font-size: 15%;
+        height: 20px;
+    }
+}

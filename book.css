@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x:hidden;
+    }
+.menu_wrap{
+    background-color: rgb(248, 245, 203);
+}
+.title{
+    margin: 20px 0 0 -0.5%;
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.menu_header{
+    display: inline-flex;
+    width: 100%;
+    height: 7em;
+    margin-top: 0;
+}
+#logo{
+    margin: 20px 1.5% 0% 1%;
+}
+
+#tagline{
+    font-size: 150%;
+
+}
+title h1{ 
+    margin: 15px 5% 5% 5%;
+    font-weight: 10%;
+    line-height: 1;
+
+}
+.menu_1{
+    margin: -60px -20% 10% 9%;
+    justify-content: space-around;
+    font-size: 120%;
+    position: absolute;
+    right: 10%;
+    width: 30%;
+}
+.menu_1 a{
+    color: black;
+}
+.menu_1{
+    padding-left: 2%;
+}
+.menu a{
+    text-decoration: none;
+    font-family: 'Jua', sans-serif;
+    font-size: 25px;
+    margin: 0px 20px 0 0;
+}
+.menu a:hover{
+    color: orange;
+}
+ul li{
+    display: inline-block;
+    justify-content: center;
+}
+.menu_s{
+    margin-top: 30px;
+    margin-left: 31.5%;;
+}
+.menu_s li{
+    padding-left: 10%;
+    
+}
+.name_category{
+    color: #ffa500;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 5%;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.dropdown{
+    position : relative;
+    display : inline-block;
+    margin: 100px 0 0 72%;
+}
+  
+.dropbtn_icon{
+    font-family : 'Material Icons';
+}
+.dropbtn{
+    border : 1px solid rgb(37, 37, 37);
+    border-radius : 4px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+    color : rgb(37, 37, 37);
+    padding : 12px;
+    width :200px;
+    text-align: left;
+    cursor : pointer;
+    font-size : 12px;
+}
+.dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    font-weight: 400;
+    background-color: #f9f9f9;
+    min-width : 200px;
+}
+.dropdown-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 12px;
+    padding : 12px 20px;
+}
+.dropdown-content a:hover{
+    background-color : #ececec
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*pc*/
+@media(min-width:1024px){
+    div#new-posts-secondary-card {
+        border: 1px solid #eee;
+        border-radius: 10px;
+        width: 50vw;
+        height: 40vh;
+        display: flex;
+        margin: 5% 50% 0 8%;
+    
+    }
+    #new-posts-secondary-card-text a{
+        text-decoration: none;
+        font-family: 'Kiwi Maru', serif;
+        color: black;
+
+    }
+    .post-title{
+        font-size: 2rem;
+        margin-left: 3%;
+
+    }
+    .post-excerpt{
+        font-size: 1.5rem;
+        margin: 5px -10% 0 3%;
+        font-size: 1.5rem;
+        margin: 50%;
+        display: block;
+        color: black;
+        width: 200%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        line-height: 1.2;
+        height: 3.8em;
+        text-align: left;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .post-categories{
+        font-size: 2rem;
+        margin-left: 3%;
+    }
+    .post-categories li{
+        margin: 50px 0 0 0;
+    }
+}
+/*mobile*/
+@media(min-width:767px){
+    div#new-posts-secondary-card {
+        border: 1px solid #eee;
+        border-radius: 10px;
+        width: 80rem;
+        height: 300px;
+        margin: 5% 50% 0 8%;
+    }
+    #new-posts-secondary-card-text a{
+        text-decoration: none;
+        font-family: 'Kiwi Maru', serif;
+        color: black;
+
+    }
+    .post-title{
+        font-size: 1.5rem;
+        margin: 15px -12% 0 0;
+
+    }
+    .post-excerpt{
+        font-size: 1rem;
+        margin: 10px 5% 0 0;
+        display: block;
+        color: black;
+        width: 90%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        line-height: 1.2;
+        height: 3.5em;
+        text-align: left;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .post-excerpt a{
+        width: 800px;
+        height: 200px;
+    }
+    .post-categories{
+        font-size: 2rem;
+        margin-left: 3%;
+   
+    }
+    .post-categories li{
+        margin: 50px 0 20% 0;
+    }
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    background-color: #2c2f34;
+    bottom: 0;
+    align-items: center;
+    margin-top: 5%;
+}
+.footer_parent{
+    width: 90%;
+    margin: 50em center;
+}
+.info{
+    color: white;
+    position: relative;
+    display: flex;
+    float: right;
+    text-align: center;
+    margin: 0 30% 0 10%;
+}
+*{
+    box-sizing: border-box
+}
+body.doz_sys {
+    -webkit-tap-highlight-color: rgba(201, 224, 253, 0.3);
+}
+.doz_sys {
+    color: #000;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
